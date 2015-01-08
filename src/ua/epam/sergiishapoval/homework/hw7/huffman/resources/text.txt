@@ -1,0 +1,14 @@
+This video talks about Huffman Coding. The following topics shall be discussed in this video.
+
+1. Huffman Coding Introduction
+
+2. Traditional Coding Example
+
+3. Huffman Coding Example
+
+4. Comparison between traditional coding and Huffman coding
+
+This video is brought to you by http://www.thinkaloudacademy.com. Please visit our site for more videos on algorithms.
+
+Keywords:
+Algorithms, Algorithm, Computer Algorithm, Computer Algorithms, Algorithm Design, Algorithm Design and Analysis, Analysis of Algorithms, Anany Levitin, Levitin, Greedy, Greedy Technique, Huffman Coding, Huffman Coding Algorithm, Hauffman, Hauffman Coding Algorithm, Huffmann Coding, Time Complexity, Think Aloud Academy, Amitkeerti, Amitkeerti Lagare, Niharika, Niharika Kumar, www.thinkaloudacademy.com
