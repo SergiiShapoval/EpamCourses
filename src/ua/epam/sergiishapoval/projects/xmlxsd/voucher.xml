@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<touristVouchers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="voucher.xsd">
+    <touristVoucher id="IND1">
+        <type>weekend</type>
+        <country>Индия</country>
+        <numberDaysNights>2</numberDaysNights>
+        <transport>air</transport>
+        <hotelProps>
+            <stars>5</stars>
+            <meals>HB</meals>
+            <roomPlaces>2</roomPlaces>
+            <condition>+</condition>
+            <TV>+</TV>
+            <WIFI>+</WIFI>
+            <freeParking>-</freeParking>
+        </hotelProps>
+        <cost currency="EUR">1300.00</cost>
+    </touristVoucher>
+    <touristVoucher id="JAP2">
+        <type>tour</type>
+        <country>Japan</country>
+        <numberDaysNights>3</numberDaysNights>
+        <transport>charter</transport>
+        <hotelProps>
+            <stars>3</stars>
+            <meals>BB</meals>
+            <roomPlaces>1</roomPlaces>
+            <condition>-</condition>
+            <TV>-</TV>
+            <WIFI>+</WIFI>
+            <freeParking>-</freeParking>
+        </hotelProps>
+        <cost currency="USD">2000.00</cost>
+    </touristVoucher>
+    <touristVoucher id="IS3">
+        <type>pilgrimage</type>
+        <country>Израиль</country>
+        <numberDaysNights>5</numberDaysNights>
+        <transport>charter</transport>
+        <hotelProps>
+            <stars>3</stars>
+            <meals>Al</meals>
+            <roomPlaces>5</roomPlaces>
+            <condition>+</condition>
+            <TV>-</TV>
+            <WIFI>-</WIFI>
+            <freeParking>-</freeParking>
+        </hotelProps>
+        <cost currency="USD">2000.00</cost>
+    </touristVoucher>
+    <touristVoucher id="SA4">
+        <type>pilgrimage</type>
+        <country>Saudi Arabia</country>
+        <numberDaysNights>3</numberDaysNights>
+        <transport>air</transport>
+        <hotelProps>
+            <stars>5</stars>
+            <meals>HB</meals>
+            <roomPlaces>2</roomPlaces>
+            <condition>+</condition>
+            <TV>+</TV>
+            <WIFI>+</WIFI>
+            <freeParking>+</freeParking>
+        </hotelProps>
+        <cost currency="EUR">1500.00</cost>
+    </touristVoucher>
+</touristVouchers>

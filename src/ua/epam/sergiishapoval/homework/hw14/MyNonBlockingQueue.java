@@ -1,7 +1,5 @@
 package ua.epam.sergiishapoval.homework.hw14;
 
-import java.util.Queue;
-import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 
@@ -46,17 +44,16 @@ public class MyNonBlockingQueue {
     private AtomicInteger size = new AtomicInteger();
 
     public boolean offer(Integer value) {
+        Node nextNode = new Node();
+        nextNode.value.set(value);
         while (true){
             if (isEmpty()){
-                Node nextNode = new Node();
-                nextNode.value.set(value);
+
                     if (first.compareAndSet(null, nextNode)) { //if not - delete or insert operation is not finished
                         last.set(first.get());// others operations can't start due to isEmpty
                         size.incrementAndGet();
                     } else continue;
             } else {
-                Node nextNode = new Node();
-                nextNode.value.set(value);
                 Node lastCopy = last.get();
                 nextNode.previous.set(lastCopy);
                     if (last.compareAndSet(lastCopy, nextNode) ) continue;
